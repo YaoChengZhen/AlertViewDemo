@@ -1,0 +1,637 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0D9BB31EA9E0B629FF7741B47C2F0A0A /* YYShowAlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 294031D2B22DE939B17FE7551222D84D /* YYShowAlertView.swift */; };
+		4C56E123EB9ACDE689B52BE0C1468AEA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 312B988EF117AE4DE76A268D970131FE /* UIKit.framework */; };
+		61C7FF06F495EBFCDD4ADBF6FEDADC0F /* YYAlertFadeAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70F06899EA4ACE36835FFF8024E35F1B /* YYAlertFadeAnimation.swift */; };
+		63BF35A94DAD1B6001C26D306A770004 /* YYAlertScaleFadeAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB3A37BEEDC048AAEE6F97197529466C /* YYAlertScaleFadeAnimation.swift */; };
+		671B65367A995963BAAA181CE0F7790E /* UIView+AutoLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7F1DF91FE1E7EC7343F6ADFE6FF286C /* UIView+AutoLayout.swift */; };
+		7693C58FFED1E9AA05509CF5C69C1F1D /* YYAlertController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 140492B3C0027A2145FAC5BE0360F272 /* YYAlertController.swift */; };
+		8BD8E149A78B0984DEE431414FE875DD /* Pods-YTAlertDemo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 86EB4DCD2283D44ED9DF2C0DDF50717A /* Pods-YTAlertDemo-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		99D10FE8A30A7C8E1EF532B278B04493 /* YYAlertController-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CE5900CDA4FCB2301B09F6A96ADAA9F2 /* YYAlertController-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B9CB7038DD3C9DF507BA013A8B590A6B /* YYAlertController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E8EBE9B98E2D628025CFED91BD27236C /* YYAlertController-dummy.m */; };
+		BDA5A72749ADB5F020A1D3581D7B6BBF /* Pods-YTAlertDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FC31665546AE7E279F42F5D6BDC15445 /* Pods-YTAlertDemo-dummy.m */; };
+		CD90F114E236E43C3664D7F9F293A241 /* YYAlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72D44B4619F66F03FBC14398366186FE /* YYAlertView.swift */; };
+		CDA93D929FB9AAC3DC705AD24C28F623 /* UIView+YYAlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 733AA16F6F5A6512D308082061918714 /* UIView+YYAlertView.swift */; };
+		DF0869B47452549851BDE63610A4351F /* YYBaseAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 278A361993B9E5CED4132A39C1E15329 /* YYBaseAnimation.swift */; };
+		E34ECC59CB825D5D54286A9E0B20417B /* YYAlertDropDownAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFA49787CCCFCB01883F86E5BA60DED2 /* YYAlertDropDownAnimation.swift */; };
+		EA7ACBCC786C00A5A12937C6FC9F459D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */; };
+		EC1C81304FF2D6D6106288F4310F5700 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5ACC316A1A41401C5185745E70EB0CE2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EF7ED2BBD0A93BA22E202196D60602CE;
+			remoteInfo = YYAlertController;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		140492B3C0027A2145FAC5BE0360F272 /* YYAlertController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = YYAlertController.swift; path = YYAlertController/Classes/YYAlertController.swift; sourceTree = "<group>"; };
+		20328A6F2379A9A548A0D0E888B2D3FB /* YYAlertController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = YYAlertController.framework; path = YYAlertController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		278A361993B9E5CED4132A39C1E15329 /* YYBaseAnimation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = YYBaseAnimation.swift; path = YYAlertController/Classes/YYBaseAnimation.swift; sourceTree = "<group>"; };
+		294031D2B22DE939B17FE7551222D84D /* YYShowAlertView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = YYShowAlertView.swift; path = YYAlertController/Classes/YYShowAlertView.swift; sourceTree = "<group>"; };
+		312B988EF117AE4DE76A268D970131FE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		31FF943B5C69AF35ACCB8B736819E3BB /* Pods_YTAlertDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_YTAlertDemo.framework; path = "Pods-YTAlertDemo.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		399B3C3FCB7CBB3E40950FA0635C0855 /* Pods-YTAlertDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YTAlertDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		3CD61D127FB842C4FE5FB372C94C82EB /* YYAlertController.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YYAlertController.xcconfig; sourceTree = "<group>"; };
+		43404B67DE36DEB8A49ABFBD64CE602E /* Pods-YTAlertDemo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-YTAlertDemo-acknowledgements.markdown"; sourceTree = "<group>"; };
+		436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		70F06899EA4ACE36835FFF8024E35F1B /* YYAlertFadeAnimation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = YYAlertFadeAnimation.swift; path = YYAlertController/Classes/YYAlertFadeAnimation.swift; sourceTree = "<group>"; };
+		72B25ADF30F079E2A52930613FF16D25 /* YYAlertController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YYAlertController-prefix.pch"; sourceTree = "<group>"; };
+		72D44B4619F66F03FBC14398366186FE /* YYAlertView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = YYAlertView.swift; path = YYAlertController/Classes/YYAlertView.swift; sourceTree = "<group>"; };
+		733AA16F6F5A6512D308082061918714 /* UIView+YYAlertView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIView+YYAlertView.swift"; path = "YYAlertController/Classes/UIView+YYAlertView.swift"; sourceTree = "<group>"; };
+		86EB4DCD2283D44ED9DF2C0DDF50717A /* Pods-YTAlertDemo-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-YTAlertDemo-umbrella.h"; sourceTree = "<group>"; };
+		88906F6479F46B251B7454941023581A /* Pods-YTAlertDemo-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YTAlertDemo-Info.plist"; sourceTree = "<group>"; };
+		92C2F7ACA61314184D7642CB4F7614CD /* Pods-YTAlertDemo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YTAlertDemo-acknowledgements.plist"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A0EF11419A1B69297674F1748AF3792F /* Pods-YTAlertDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YTAlertDemo.release.xcconfig"; sourceTree = "<group>"; };
+		BBD9260F2740DAAED390281491803C8C /* YYAlertController-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "YYAlertController-Info.plist"; sourceTree = "<group>"; };
+		CB3A37BEEDC048AAEE6F97197529466C /* YYAlertScaleFadeAnimation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = YYAlertScaleFadeAnimation.swift; path = YYAlertController/Classes/YYAlertScaleFadeAnimation.swift; sourceTree = "<group>"; };
+		CE5900CDA4FCB2301B09F6A96ADAA9F2 /* YYAlertController-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YYAlertController-umbrella.h"; sourceTree = "<group>"; };
+		D3F711368AA6CF806FBFAFCFC8D7AC47 /* Pods-YTAlertDemo-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-YTAlertDemo-frameworks.sh"; sourceTree = "<group>"; };
+		E016CB627E29D3DC67B011A20C205450 /* Pods-YTAlertDemo.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-YTAlertDemo.modulemap"; sourceTree = "<group>"; };
+		E8EBE9B98E2D628025CFED91BD27236C /* YYAlertController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "YYAlertController-dummy.m"; sourceTree = "<group>"; };
+		F321AE89DD39F29A38E5F8D75718A8BD /* YYAlertController.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = YYAlertController.modulemap; sourceTree = "<group>"; };
+		F7F1DF91FE1E7EC7343F6ADFE6FF286C /* UIView+AutoLayout.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIView+AutoLayout.swift"; path = "YYAlertController/Classes/UIView+AutoLayout.swift"; sourceTree = "<group>"; };
+		FC31665546AE7E279F42F5D6BDC15445 /* Pods-YTAlertDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-YTAlertDemo-dummy.m"; sourceTree = "<group>"; };
+		FFA49787CCCFCB01883F86E5BA60DED2 /* YYAlertDropDownAnimation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = YYAlertDropDownAnimation.swift; path = YYAlertController/Classes/YYAlertDropDownAnimation.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0B596EF8B73327AA98E11146F5D9A235 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC1C81304FF2D6D6106288F4310F5700 /* Foundation.framework in Frameworks */,
+				4C56E123EB9ACDE689B52BE0C1468AEA /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4649FBA589983C6A0ED7DDEB83D882DF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA7ACBCC786C00A5A12937C6FC9F459D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E2983683FD097A93297E2F5D4E382B36 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4934B0CA0FBA95085E2B85F8F94A3D03 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				31FF943B5C69AF35ACCB8B736819E3BB /* Pods_YTAlertDemo.framework */,
+				20328A6F2379A9A548A0D0E888B2D3FB /* YYAlertController.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4A351FB1B6AF71EEF2A964C69DBDACF1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CF4160B4C100E0CFD34ECA29168DFEB5 /* YYAlertController */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		69D8441B36B9C1EDB8DBC47B87AB41B3 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F321AE89DD39F29A38E5F8D75718A8BD /* YYAlertController.modulemap */,
+				3CD61D127FB842C4FE5FB372C94C82EB /* YYAlertController.xcconfig */,
+				E8EBE9B98E2D628025CFED91BD27236C /* YYAlertController-dummy.m */,
+				BBD9260F2740DAAED390281491803C8C /* YYAlertController-Info.plist */,
+				72B25ADF30F079E2A52930613FF16D25 /* YYAlertController-prefix.pch */,
+				CE5900CDA4FCB2301B09F6A96ADAA9F2 /* YYAlertController-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/YYAlertController";
+			sourceTree = "<group>";
+		};
+		A8297A92DCD05D547420DB30B29091C9 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E3E94A54195D44EDE04D0EF79F91AC7E /* Pods-YTAlertDemo */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */,
+				4A351FB1B6AF71EEF2A964C69DBDACF1 /* Pods */,
+				4934B0CA0FBA95085E2B85F8F94A3D03 /* Products */,
+				A8297A92DCD05D547420DB30B29091C9 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		CF4160B4C100E0CFD34ECA29168DFEB5 /* YYAlertController */ = {
+			isa = PBXGroup;
+			children = (
+				F7F1DF91FE1E7EC7343F6ADFE6FF286C /* UIView+AutoLayout.swift */,
+				733AA16F6F5A6512D308082061918714 /* UIView+YYAlertView.swift */,
+				140492B3C0027A2145FAC5BE0360F272 /* YYAlertController.swift */,
+				FFA49787CCCFCB01883F86E5BA60DED2 /* YYAlertDropDownAnimation.swift */,
+				70F06899EA4ACE36835FFF8024E35F1B /* YYAlertFadeAnimation.swift */,
+				CB3A37BEEDC048AAEE6F97197529466C /* YYAlertScaleFadeAnimation.swift */,
+				72D44B4619F66F03FBC14398366186FE /* YYAlertView.swift */,
+				278A361993B9E5CED4132A39C1E15329 /* YYBaseAnimation.swift */,
+				294031D2B22DE939B17FE7551222D84D /* YYShowAlertView.swift */,
+				69D8441B36B9C1EDB8DBC47B87AB41B3 /* Support Files */,
+			);
+			name = YYAlertController;
+			path = YYAlertController;
+			sourceTree = "<group>";
+		};
+		E2983683FD097A93297E2F5D4E382B36 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */,
+				312B988EF117AE4DE76A268D970131FE /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		E3E94A54195D44EDE04D0EF79F91AC7E /* Pods-YTAlertDemo */ = {
+			isa = PBXGroup;
+			children = (
+				E016CB627E29D3DC67B011A20C205450 /* Pods-YTAlertDemo.modulemap */,
+				43404B67DE36DEB8A49ABFBD64CE602E /* Pods-YTAlertDemo-acknowledgements.markdown */,
+				92C2F7ACA61314184D7642CB4F7614CD /* Pods-YTAlertDemo-acknowledgements.plist */,
+				FC31665546AE7E279F42F5D6BDC15445 /* Pods-YTAlertDemo-dummy.m */,
+				D3F711368AA6CF806FBFAFCFC8D7AC47 /* Pods-YTAlertDemo-frameworks.sh */,
+				88906F6479F46B251B7454941023581A /* Pods-YTAlertDemo-Info.plist */,
+				86EB4DCD2283D44ED9DF2C0DDF50717A /* Pods-YTAlertDemo-umbrella.h */,
+				399B3C3FCB7CBB3E40950FA0635C0855 /* Pods-YTAlertDemo.debug.xcconfig */,
+				A0EF11419A1B69297674F1748AF3792F /* Pods-YTAlertDemo.release.xcconfig */,
+			);
+			name = "Pods-YTAlertDemo";
+			path = "Target Support Files/Pods-YTAlertDemo";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0A1A28EFC3A6183B848A749FFC2B622A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8BD8E149A78B0984DEE431414FE875DD /* Pods-YTAlertDemo-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		663D83EB5D1ACD7B9330684EE1851ECF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99D10FE8A30A7C8E1EF532B278B04493 /* YYAlertController-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		3B9B401C9FB8B36520C50465615CC7A6 /* Pods-YTAlertDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3AAF65DB44FDD3CB8D722EF4D9C0AE1E /* Build configuration list for PBXNativeTarget "Pods-YTAlertDemo" */;
+			buildPhases = (
+				0A1A28EFC3A6183B848A749FFC2B622A /* Headers */,
+				4ACC1E90BD64B8E2A6C4DCF1DC313C84 /* Sources */,
+				4649FBA589983C6A0ED7DDEB83D882DF /* Frameworks */,
+				1041ED4220D869BB453C5BB8A5946BF4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C91C52D33C6506A499FE581E30C52D77 /* PBXTargetDependency */,
+			);
+			name = "Pods-YTAlertDemo";
+			productName = "Pods-YTAlertDemo";
+			productReference = 31FF943B5C69AF35ACCB8B736819E3BB /* Pods_YTAlertDemo.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		EF7ED2BBD0A93BA22E202196D60602CE /* YYAlertController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 69E31D77485C8CA70C99E6A074DCB8F2 /* Build configuration list for PBXNativeTarget "YYAlertController" */;
+			buildPhases = (
+				663D83EB5D1ACD7B9330684EE1851ECF /* Headers */,
+				11ADE096E3507BFB78228DDC34C0D2B8 /* Sources */,
+				0B596EF8B73327AA98E11146F5D9A235 /* Frameworks */,
+				F3BCDE27430CB949FABA1AAC6F6E7899 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YYAlertController;
+			productName = YYAlertController;
+			productReference = 20328A6F2379A9A548A0D0E888B2D3FB /* YYAlertController.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 10.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 4934B0CA0FBA95085E2B85F8F94A3D03 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3B9B401C9FB8B36520C50465615CC7A6 /* Pods-YTAlertDemo */,
+				EF7ED2BBD0A93BA22E202196D60602CE /* YYAlertController */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1041ED4220D869BB453C5BB8A5946BF4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3BCDE27430CB949FABA1AAC6F6E7899 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		11ADE096E3507BFB78228DDC34C0D2B8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				671B65367A995963BAAA181CE0F7790E /* UIView+AutoLayout.swift in Sources */,
+				CDA93D929FB9AAC3DC705AD24C28F623 /* UIView+YYAlertView.swift in Sources */,
+				B9CB7038DD3C9DF507BA013A8B590A6B /* YYAlertController-dummy.m in Sources */,
+				7693C58FFED1E9AA05509CF5C69C1F1D /* YYAlertController.swift in Sources */,
+				E34ECC59CB825D5D54286A9E0B20417B /* YYAlertDropDownAnimation.swift in Sources */,
+				61C7FF06F495EBFCDD4ADBF6FEDADC0F /* YYAlertFadeAnimation.swift in Sources */,
+				63BF35A94DAD1B6001C26D306A770004 /* YYAlertScaleFadeAnimation.swift in Sources */,
+				CD90F114E236E43C3664D7F9F293A241 /* YYAlertView.swift in Sources */,
+				DF0869B47452549851BDE63610A4351F /* YYBaseAnimation.swift in Sources */,
+				0D9BB31EA9E0B629FF7741B47C2F0A0A /* YYShowAlertView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4ACC1E90BD64B8E2A6C4DCF1DC313C84 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDA5A72749ADB5F020A1D3581D7B6BBF /* Pods-YTAlertDemo-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C91C52D33C6506A499FE581E30C52D77 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = YYAlertController;
+			target = EF7ED2BBD0A93BA22E202196D60602CE /* YYAlertController */;
+			targetProxy = 5ACC316A1A41401C5185745E70EB0CE2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		16FEE3B36925A0CBA722E59DF1398B24 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3CD61D127FB842C4FE5FB372C94C82EB /* YYAlertController.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/YYAlertController/YYAlertController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/YYAlertController/YYAlertController-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/YYAlertController/YYAlertController.modulemap";
+				PRODUCT_MODULE_NAME = YYAlertController;
+				PRODUCT_NAME = YYAlertController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		32B9806EFC56D6A57774DF14920BC0BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3CD61D127FB842C4FE5FB372C94C82EB /* YYAlertController.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/YYAlertController/YYAlertController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/YYAlertController/YYAlertController-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/YYAlertController/YYAlertController.modulemap";
+				PRODUCT_MODULE_NAME = YYAlertController;
+				PRODUCT_NAME = YYAlertController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7CEE4DF1EA8BCDEFAC24AF603B049C8D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A0EF11419A1B69297674F1748AF3792F /* Pods-YTAlertDemo.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-YTAlertDemo/Pods-YTAlertDemo-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-YTAlertDemo/Pods-YTAlertDemo.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8F17DC3A99F99FBAD606CE6963886315 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		916E0404255105F480DC4950B7625F7A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		9476F1DB731D05934501657C0B13F8BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 399B3C3FCB7CBB3E40950FA0635C0855 /* Pods-YTAlertDemo.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-YTAlertDemo/Pods-YTAlertDemo-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-YTAlertDemo/Pods-YTAlertDemo.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3AAF65DB44FDD3CB8D722EF4D9C0AE1E /* Build configuration list for PBXNativeTarget "Pods-YTAlertDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9476F1DB731D05934501657C0B13F8BC /* Debug */,
+				7CEE4DF1EA8BCDEFAC24AF603B049C8D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				916E0404255105F480DC4950B7625F7A /* Debug */,
+				8F17DC3A99F99FBAD606CE6963886315 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		69E31D77485C8CA70C99E6A074DCB8F2 /* Build configuration list for PBXNativeTarget "YYAlertController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32B9806EFC56D6A57774DF14920BC0BB /* Debug */,
+				16FEE3B36925A0CBA722E59DF1398B24 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14868" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14824"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="YTAlertDemo" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xkG-Fb-hvU">
+                                <rect key="frame" x="147" y="111" width="121" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="tTd-or-dUc"/>
+                                    <constraint firstAttribute="width" constant="121" id="x8G-8w-mdU"/>
+                                </constraints>
+                                <state key="normal" title="AlertView"/>
+                                <connections>
+                                    <action selector="showNormalAlertView:" destination="BYZ-38-t0r" eventType="touchUpInside" id="aLj-cy-JsN"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bcx-JE-Bx1">
+                                <rect key="frame" x="156.5" y="167" width="101" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="101" id="DeC-gD-AM2"/>
+                                    <constraint firstAttribute="height" constant="30" id="a3L-f6-AIY"/>
+                                </constraints>
+                                <state key="normal" title="SheetView"/>
+                                <connections>
+                                    <action selector="sheetViewAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="VGA-g7-CCd"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Oof-d5-v4l">
+                                <rect key="frame" x="164" y="226" width="86" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="86" id="bdZ-7y-cUx"/>
+                                    <constraint firstAttribute="height" constant="30" id="dwD-Dx-3NH"/>
+                                </constraints>
+                                <state key="normal" title="CustomView"/>
+                                <connections>
+                                    <action selector="customViewAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="xAY-OZ-Yzm"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VnH-T7-5mm">
+                                <rect key="frame" x="154.5" y="304" width="105" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="105" id="Nxy-K6-z80"/>
+                                    <constraint firstAttribute="height" constant="30" id="rUL-pn-TPr"/>
+                                </constraints>
+                                <state key="normal" title="ShowInWindow"/>
+                                <connections>
+                                    <action selector="showInWindowAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="01A-T7-2Gd"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jqK-oL-vcc">
+                                <rect key="frame" x="159.5" y="369" width="95" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="95" id="tpd-8J-sNm"/>
+                                    <constraint firstAttribute="height" constant="30" id="wS6-Ft-mHw"/>
+                                </constraints>
+                                <state key="normal" title="TextFieldAlert"/>
+                                <connections>
+                                    <action selector="touchTextField:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Z1n-Vx-LTx"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DZM-rm-ocF">
+                                <rect key="frame" x="144" y="433" width="126" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="4Kq-sQ-KXL"/>
+                                    <constraint firstAttribute="width" constant="126" id="fx6-gd-HEJ"/>
+                                </constraints>
+                                <state key="normal" title="SheetCustomView"/>
+                                <connections>
+                                    <action selector="touchSheetCustom:" destination="BYZ-38-t0r" eventType="touchUpInside" id="MPv-jV-xtA"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="Oof-d5-v4l" firstAttribute="top" secondItem="bcx-JE-Bx1" secondAttribute="bottom" constant="29" id="F3o-2q-wnM"/>
+                            <constraint firstItem="xkG-Fb-hvU" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="67" id="JuB-gE-ugN"/>
+                            <constraint firstItem="DZM-rm-ocF" firstAttribute="top" secondItem="jqK-oL-vcc" secondAttribute="bottom" constant="34" id="PLS-pS-f2k"/>
+                            <constraint firstItem="VnH-T7-5mm" firstAttribute="centerX" secondItem="xkG-Fb-hvU" secondAttribute="centerX" id="Qll-th-R4e"/>
+                            <constraint firstItem="jqK-oL-vcc" firstAttribute="centerX" secondItem="xkG-Fb-hvU" secondAttribute="centerX" id="Qzc-D6-u8v"/>
+                            <constraint firstItem="bcx-JE-Bx1" firstAttribute="centerX" secondItem="xkG-Fb-hvU" secondAttribute="centerX" id="T2k-DP-RMW"/>
+                            <constraint firstItem="Oof-d5-v4l" firstAttribute="centerX" secondItem="xkG-Fb-hvU" secondAttribute="centerX" id="YPY-5o-v1u"/>
+                            <constraint firstItem="DZM-rm-ocF" firstAttribute="centerX" secondItem="jqK-oL-vcc" secondAttribute="centerX" id="bQj-d4-0JT"/>
+                            <constraint firstItem="xkG-Fb-hvU" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="geI-zu-DzL"/>
+                            <constraint firstItem="bcx-JE-Bx1" firstAttribute="top" secondItem="xkG-Fb-hvU" secondAttribute="bottom" constant="26" id="pOv-zK-jvu"/>
+                            <constraint firstItem="jqK-oL-vcc" firstAttribute="top" secondItem="VnH-T7-5mm" secondAttribute="bottom" constant="35" id="pcL-to-gcr"/>
+                            <constraint firstItem="VnH-T7-5mm" firstAttribute="top" secondItem="Oof-d5-v4l" secondAttribute="bottom" constant="48" id="pgc-zf-Zo3"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="131.8840579710145" y="89.732142857142847"/>
+        </scene>
+    </scenes>
+</document>

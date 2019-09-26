@@ -1,0 +1,6 @@
+framework module Pods_YTAlertDemo {
+  umbrella header "Pods-YTAlertDemo-umbrella.h"
+
+  export *
+  module * { export * }
+}
